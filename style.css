@@ -1,0 +1,75 @@
+.container{
+			margin:0 auto;
+			width:402px;
+			height:422px;
+			position:relative;
+		}
+		table.grid{
+			position:relative;
+			width:400px;
+			height:400px;
+			border:solid 2px #000;
+			-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+background-color:#000;
+		}
+		table.grid td{
+			width:100px;
+			height:100px;
+			text-align:center;
+			font-size:36px;
+			-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+		}
+		.tile{
+			width:100px;
+			background-color:#CFC8B5;
+			color:#5C5B57;
+		}
+		.tile2{
+		background-color:#ffe9e9;
+		}
+		.tile4{
+		background-color:#d9fdff;
+		}
+		.tile8{
+		background-color:#57e5fa;
+		}
+		.tile16{
+		background-color:#57c2fa;
+		}
+		.tile32{
+		background-color:#5776fa;
+		}
+		.tile64{
+		background-color:#6afa57;
+		}
+		.tile128{
+		background-color:#eefd01;
+		}
+		.tile256{
+		background-color:#fdc501;
+		}
+		.tile512{
+		background-color:#ff83f2;
+		}
+		.tile1024{
+		background-color:#ff9583;
+		}
+		.tile2048{
+		background-color:#fd2400;
+		}
+		#gameover{
+			background-color: #000;
+			color: #fff;
+			height: 100%;
+			opacity: 0.8;
+			position: absolute;
+			top: 0;
+			width: 100%;
+			z-index: 999;
+			-moz-border-radius: 10px;
+			border-radius: 10px;
+		}
